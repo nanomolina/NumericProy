@@ -1,7 +1,7 @@
 function w = ilagrange(x, y, z)
     assert(length(x) == length(y))
-    n = length(x)
-    m = length(z)
+    n = length(x);
+    m = length(z);
     w = [];
     for i=1:m
         p = 0;
